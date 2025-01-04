@@ -1,0 +1,13 @@
+java script  was inveted in 1995 developed by brandin  firstly it was know as mocha  later know  as ECMA script [European computer manufacture association]  
+after 2008  it has become server side lang.  used by  NOTEJS
+
+what is java script- it is a server side and client side scripting lang. 
+
+2015 es6 update made it famous.
+
+Data type 
+
+
+
+
+
