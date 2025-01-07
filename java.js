@@ -173,8 +173,8 @@ function vari3(){
     var age=1;
    
     //hosting is allowed i.e var age will be declared at start of function but no value will be assinged so answer  will be undefined
-   
-    }
+    
+}
     vari3();
     
     //let 
@@ -182,11 +182,11 @@ function vari3(){
     {
         console.log(a);
           let a=60;
-        //hoisting is not allowed
-   
+      
+          //hoisting is not allowed
     }
     leti3();
-    
+
     //const
     function consta3()
     {
@@ -196,3 +196,4 @@ function vari3(){
     }
     consta3();
     
+
