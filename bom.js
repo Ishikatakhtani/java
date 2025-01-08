@@ -28,13 +28,23 @@ function bom(){
 
 //SOL:-
 
-let b=prompt("enter a no.")
-if(b%2==0){
-    alert("even")
-}
-else{
-    alert("odd")
-}
+// let b=prompt("enter a no.")
+// if(b%2==0){
+//     alert("even")
+// }
+// else{
+//     alert("odd")
+// }
+// }
+// bom()
+
+// take 2 prompt , take 2 no. and show answer in alert
+//Sol
+let a= parseInt(prompt("enter n"))
+let b=parseInt(prompt("enter b"))
+alert(a+b);
+
 }
 bom()
+
 
