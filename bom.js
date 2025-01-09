@@ -186,7 +186,7 @@ function task9(){
 task9()
 
 function task10(){
-//     let day=prompt("enter day")
+//     let day=parseInt(prompt("enter day"))
 //     switch(day){
 //         case 1: {
 // alert("Monday")
