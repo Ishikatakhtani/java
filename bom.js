@@ -86,15 +86,139 @@ function bom2(){
    //FOR LOOP
                                  // QUSTION 1
 
-                                 for(let n=0;n<=10;n++){
-                                    console.log(n);
+                                //  for(let n=0;n<=10;n++){
+                                //     console.log(n);
                                     
-                                }
+                                // }
                             }
 
 bom2()
+function task1(){
+    // let age=prompt("enter age")
+    //  age>=18?alert("vote"):alert("not");
+}
+task1()
 
+function task2(){
+    // let a=confirm("have you completed the course?")
+    // let b=confirm("do you have certificate ?")
+    // if(a==true&&b==true){
+    //     alert("Completed")
+    // }
+    // else{
+    //     alert("Not completed")
+    // }
+}
+task2()
 
+function task3(){
+    // let price=prompt("enter price of item purchased")
+    // let b=confirm("Do you have coupon")
+    // if(b==true){
+    //     let discount=price*10/100
+    //     price=price-discount
+    //     alert(price)
+    // }
+    // else{
+    //     alert(price)
+    // }
+}
+task3()
 
-                             
+function task4(){
+    // let marks=prompt("enter marks")
+    // if(33<=marks){
+    //     alert("pass")
+    // }
+    // else{
+    //     alert("Fail")
+    // }
+}
+task4()
 
+function task5(){
+//     let a=prompt("enter a no.")
+// if(a%2==0){
+//     alert("even")
+// }
+// else {
+//     alert("odd")
+// }
+}
+task5()
+
+function task6(){
+    // let a=confirm("Are you sure you want to delete")
+    // if(a==true){
+    //     alert("Item Deleted")
+    // }
+    // else{
+    //     alert("Cancelled")
+    // }
+}
+task6()
+
+function task7(){
+    // let a=prompt("Enter a no.")
+    // if(a<0){
+    //     alert("Negetive no.")
+    // }
+    // else{
+    //     alert("Positive no.")
+    // }
+}
+task7()
+
+function task8(){
+//     for(let n=0;n<=10;n++){
+//             console.log(n);
+// }
+}
+task8()
+
+function task9(){
+//    let n=prompt("enter a no.")
+    // do{
+    //     n=prompt("enter a no.")
+    // }
+    // while (n>10)
+}
+task9()
+
+function task10(){
+//     let day=prompt("enter day")
+//     switch(day){
+//         case 1: {
+// alert("Monday")
+// break;
+//         }
+// case 2:{
+// alert("Tuesday")
+// break;
+// }
+//  case 3:{
+//  alert("Wednesday")
+//  break;
+// }
+// case 4:{
+// alert("Thursday")
+// break;
+// }
+// case 5:{
+// alert("Friday")
+// break;
+// }
+// case 6:{
+// alert("Saturday")
+// break;
+// }
+// case 7:{
+// alert("Sunday")
+// break;
+// }
+// default:{
+//     alert("Not a day")
+// }
+// }
+}
+task10()
