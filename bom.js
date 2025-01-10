@@ -178,10 +178,10 @@ task8()
 
 function task9(){
 //    let n=prompt("enter a no.")
-    // do{
-    //     n=prompt("enter a no.")
-    // }
-    // while (n>10)
+//     do{
+//         n=prompt("enter a no.")
+//     }
+//     while (n<10)
 }
 task9()
 
