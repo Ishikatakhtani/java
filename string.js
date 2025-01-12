@@ -24,16 +24,16 @@ function f2(){
 f2()
 
     function f3(){
-    let text1="Home-work-done"
+    // let text1="Home-work-done"
     // console.log(text1.charAt(1));
     // console.log(text1.charCodeAt(0));
     // console.log(text1.indexOf("o"));
-    console.log(text1.split("-"));
+    // console.log(text1.split("-"));
     }
     f3()
 // ----------------------------------------------------DAY3--------------------------------------------------------------------------
  function f4(){
-  let text="I am leraning Javascript and Javascript is fun"
+  // let text="I am leraning Javascript and Javascript is fun"
   // document.write(text.replace("Javascript","JS"))    //this will convert only 1 javascript which will br found first.
 // document.write(text.replace(/Javascript/g,"JS"))     //this will convert all in same case javascript   
 // document.write(text.replace(/Javascript/gi,"JS")) 
@@ -44,3 +44,12 @@ f2()
 
  }
 //  f4()
+
+//Onclick it should display 
+
+function f5(){
+  let text="This is \"JS\" and 'js' is good"
+
+  alert(text)
+}
+f5()
