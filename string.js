@@ -24,11 +24,12 @@ function f2(){
 f2()
 
     function f3(){
-    // let text1="Home-work-done"
+    // let text1=" Home-work-done "
     // console.log(text1.charAt(1));
     // console.log(text1.charCodeAt(0));
     // console.log(text1.indexOf("o"));
     // console.log(text1.split("-"));
+    // console.log(text1.trim());
     }
     f3()
 // ----------------------------------------------------DAY3--------------------------------------------------------------------------
@@ -48,8 +49,31 @@ f2()
 //Onclick it should display 
 
 function f5(){
-  let text="This is \"JS\" and 'js' is good"
+  // let text="This is \"JS\" and 'js' is good"
 
-  alert(text)
+  // alert(text)
 }
 f5()
+
+// ----------------------------------------------------DAY3--------------------------------------------------------
+function f6(){
+//TEMPLATE LETRALS [IMPORTANT TOPIC]
+//Supports single quote and double quotes in staments/strings
+//Supports multiline string 
+//Supports  html tags
+// let text=`java 'script' "is"
+//  'too' easy `
+// alert(text)
+
+// let text1=`trying  <h1>differnt</h1> tags`
+// document.write(text1)
+
+// let name="ishika"
+// let age=20
+// let ans="hello"+name+"and your age is "+age;  //Method 1
+// console.log(ans)
+// let ans=`hello ${name} your age is ${age}`          //Method 2 imp 
+// console.log(ans)
+}
+// f6()
+
