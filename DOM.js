@@ -17,5 +17,27 @@ function f3(){
   let a=document.querySelector("#t")
   t.innerHTML="<h1>hello</h1>";
   t.style.color="red";
-  
+t.style.backgroundColor="orange";
+document.body.style.backgroundColor="blue";
 }
+function f4(){
+  let a=document.querySelector("#t")
+  t.innerHTML="Color changes";
+  t.style.color="green";
+t.style.backgroundColor="lightpink";
+document.body.style.backgroundColor="yellow";
+t.style.fontStyle="arial";
+let count=f4()
+count++
+
+}
+function f5(){
+  let a=document.querySelector("#t")
+  t.innerHTML="Reset done";
+  t.style.color="black";
+  t.style.backgroundColor="violet";
+  document.body.style.backgroundColor="white";
+  t.style.fontSize="42px"
+  //these all are used for mode such as light mode and dark mode
+}
+f5()
