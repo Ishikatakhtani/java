@@ -27,8 +27,14 @@ function f4(){
 t.style.backgroundColor="lightpink";
 document.body.style.backgroundColor="yellow";
 t.style.fontStyle="arial";
-let count=f4()
+let count=0
 count++
+if(count/2==0){
+  t.style.display="none";
+}
+else{
+  t.style.display="block";
+}
 
 }
 function f5(){
@@ -39,5 +45,17 @@ function f5(){
   document.body.style.backgroundColor="white";
   t.style.fontSize="42px"
   //these all are used for mode such as light mode and dark mode
+  
 }
 f5()
+function text (){   
+  let text=document.querySelector("#clik")
+  if (text.style.display === 'none') {
+      text.style.display = 'block'
+     
+  } else {
+      text.style.display ='none'  
+  }   
+}
+text()
+
