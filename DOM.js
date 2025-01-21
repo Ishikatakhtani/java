@@ -72,10 +72,13 @@ function resetimgg(){
 i1.style.display='none'
 }
 
+
 function chgsource(){
   let chgimg=document.querySelector('#img2')
   chgimg.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07izPZIkeDIHvcTgL4KaWENdvy3SW2eW7hEJVS61CXoawnUJkc-TCoCI&s"
 }
+
+//                                                      HOMEWORK 3 button 3 images  HOMEWORK
 
 function c1(){
   let d5=document.querySelector("#d4")
