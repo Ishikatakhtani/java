@@ -17,3 +17,9 @@ function intro(){
 console.log(arr1);
 
 }
+
+                                                                 // using spread operator for  Array
+// let arr1=["ishika","jlu"];
+// let arr2=[19,20];
+// let arr3=[...arr1,...arr2];
+// console.log(arr3);
