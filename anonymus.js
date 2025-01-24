@@ -23,7 +23,10 @@
 // FUNCTION DECLARATION WE WILL USE 
 // ARROW Function(=>)      Special type of anoymus function
 
-    let arrow=()=>{
-        console.log("arrow function imp")
-    }
-    arrow()
+    // let arrow=()=>{
+    //     console.log("arrow function imp")
+    // }
+    // arrow()
+
+
+    
