@@ -5,7 +5,7 @@ what is java script- it is a server side and client side scripting lang.
 
 2015 es6 update made it famous.
 
-String is a primitive data , represent text, anything inside ""or'' is considered as string.
+String is a primitive data , represent text, anything inside ""or'' is c onsidered as string.
 
 
 
