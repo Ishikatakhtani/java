@@ -1,0 +1,32 @@
+*{
+    padding: 0%;
+   margin: 0%; 
+   box-sizing: border-box;
+}
+/* #d{
+ width: 500px;
+ height: 250px;
+   background-color: green;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+   
+} */
+
+#d {
+    width: 300px; 
+    padding: 20px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    background-color: rgb(238, 81, 81);
+    box-shadow: 0 0 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#b:hover {
+    background-color: yellowgreen;
+   
+  }
