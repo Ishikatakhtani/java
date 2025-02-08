@@ -6,10 +6,10 @@
 
 //passing parameters in function 
 let f2=(n1,name)=>{
-//         console.log(`hello my name is ${name} my age is ${n1}`);
+        console.log(`hello my name is ${name} my age is ${n1}`);
 
-//              let a= document.querySelector("#text")  
-//  a.innerHTML=(`hello my name is ${name} my age is ${n1}`);
+             let a= document.querySelector("#text")  
+ a.innerHTML=(`hello my name is ${name} my age is ${n1}`);
     }
 
     //taking input from html
@@ -27,7 +27,6 @@ let f5=()=>{
    if(document.body.style.backgroundColor=="white"){
       document.body.style.backgroundColor="black";
      let s= document.querySelector("#p1");
-     
       s.style.color="white";
    }
    else{

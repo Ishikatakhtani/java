@@ -1,0 +1,109 @@
+/* #d1{
+  
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#d{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+body{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#h{
+  font-style: italic;
+color:rgb(152, 72, 16);
+}
+#d{
+  width: 150px;
+  height: 30px;
+  font-size: 25px;
+  font-style: italic;
+  background-color: black;
+  color: burlywood;
+}
+#pd{
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellowgreen;
+}
+ #roll1{
+height: 30px;
+width: 30px;
+  border-radius: 50% ;
+    border: 1px solid black;
+   display: none;
+   background-color: red;
+   display: flex;
+  
+}
+#roll2{
+  height: 30px;
+width: 30px;
+  border-radius: 50% ;
+      border: 1px solid black;
+     display: none;
+     background-color: red;
+     display: flex;
+   
+  } 
+  #roll3{
+    height: 30px;
+  width: 30px;
+    border-radius: 50% ;
+        border: 1px solid black;
+       display: none;
+       background-color: red;
+       display: flex;
+       
+    } 
+    #roll4{
+      height: 30px;
+    width: 30px;
+      border-radius: 50% ;
+          border: 1px solid black;
+         display: none;
+         background-color: red;
+
+         display: flex;
+         
+      } 
+      #roll5{
+        height: 30px;
+      width: 30px;
+        border-radius: 50% ;
+            border: 1px solid black;
+           display: none;
+           background-color: red;
+
+           display: flex;
+         
+        } 
+        #roll6{
+          height: 30px;
+        width: 30px;
+          border-radius: 50% ;
+              border: 1px solid black;
+             display: none;
+             background-color: red;
+
+             display: flex;
+            
+          } 
+
+  

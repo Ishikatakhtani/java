@@ -53,11 +53,11 @@ let obj1={
 
 
 //                                                     using spread operator for 3 obj
-// let a={name:"ishika",age:20};
-// let b={city:"bhopal",roll:19};
-// let c={cllg:"jlu",course:"Bca"};
-// let d={...a,...b,...c};
-// console.log(d);
+let a={name:"ishika",age:20};
+let b={city:"bhopal",roll:19};
+let c={cllg:"jlu",course:"Bca"};
+let d={...a,...b,...c};
+console.log(d);
 
                                                                  // using spread operator for  Array
 // let arr1=["ishika","jlu"];
