@@ -28,17 +28,32 @@
 
 
 
-let count=0
-let ghf
-let s=()=>{
-     ghf=setInterval( ()=>{
+// let count=0
+// let ghf
+// let s=()=>{
+//      ghf=setInterval( ()=>{
   
-        let d=document.querySelector("#e")
+//         let d=document.querySelector("#e")
 
-         d.innerHTML=count
-         count++
-     },1000)}
+//          d.innerHTML=count
+//          count++
+//      },1000)}
 
-     let stopp=()=>{
-        clearInterval(ghf)
-     }
+//      let stopp=()=>{
+//         clearInterval(ghf)
+//      }
+
+let count=0
+let abc
+let ss=()=>{
+   abc=setInterval( ()=>{
+      let i2=document.querySelector("#i1").value
+      let show=document.querySelector("#p")
+
+               show.innerHTML=count
+                count++
+                if(count>i2){
+                  clearInterval(abc)
+               }
+   },1000)
+}
