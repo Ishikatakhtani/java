@@ -20,12 +20,19 @@ body{
   align-items: center;
   justify-content: center;
   gap: 20px;
+  background-image: url("https://static1.thegamerimages.com/wordpress/wp-content/uploads/2024/01/monopoly-go-mr-monopoly-rolling-the-dice.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
 }
 #h{
+  margin-left: 55%;
   font-style: italic;
 color:rgb(152, 72, 16);
 }
 #d{
+  margin-top: 5%;
+  
+  margin-left: 55%;
   width: 150px;
   height: 30px;
   font-size: 25px;
@@ -34,13 +41,16 @@ color:rgb(152, 72, 16);
   color: burlywood;
 }
 #pd{
-  height: 500px;
-  width: 500px;
+  margin-top: 17%;
+  margin-left: 55%;
+  height: 300px;
+  width: 300px;
   border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: yellowgreen;
+  background-color: white;
+ 
 }
  #roll1{
 height: 30px;
@@ -50,7 +60,9 @@ width: 30px;
    display: none;
    background-color: red;
    display: flex;
-  
+   justify-content: center;
+   align-items: center;
+   
 }
 #roll2{
   height: 30px;
