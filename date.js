@@ -15,4 +15,17 @@
 
 // console.log(new Date());
 
+// let a= new Date()
+// let arr=["mon","tue","wed","thrus","friday","saturday","sunday"]
+// arr[a.getDay()]
 
+
+
+let a= new Date()
+    let arr=["sunday","mon","tue","wed","thrus","friday","saturday"]
+    let c=arr[a.getDay()]
+let f=()=>{
+    
+    let abc=document.querySelector("#h")
+    abc.innerHTML=c
+}
