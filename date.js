@@ -21,11 +21,24 @@
 
 
 
-let a= new Date()
-    let arr=["sunday","mon","tue","wed","thrus","friday","saturday"]
-    let c=arr[a.getDay()]
-let f=()=>{
+// let a= new Date()
+//     let arr=["sunday","mon","tue","wed","thrus","friday","saturday"]
+//     let c=arr[a.getDay()]
+// let f=()=>{
     
-    let abc=document.querySelector("#h")
-    abc.innerHTML=c
+//     let abc=document.querySelector("#h")
+//     abc.innerHTML=c
+// }
+
+
+// age calculator take an input user will enter birth year on click of butthon show their age 
+
+
+let age=()=>{
+let i1=document.querySelector("#i").value
+let m= new Date()
+let b=m.getFullYear()
+ let f=b-i1
+h.innerHTML=f
 }
+
