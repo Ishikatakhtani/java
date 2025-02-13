@@ -43,17 +43,35 @@
 //         clearInterval(ghf)
 //      }
 
-let count=0
-let abc
-let ss=()=>{
-   abc=setInterval( ()=>{
-      let i2=document.querySelector("#i1").value
-      let show=document.querySelector("#p")
 
-               show.innerHTML=count
-                count++
-                if(count>i2){
-                  clearInterval(abc)
-               }
+
+let abc
+let c
+   
+    
+let ss=()=>{
+   let i2=document.querySelector("#i1").value
+   let show=document.querySelector("#p")
+   let count=0
+  if(i2>=1){
+count=i2
+show.innerHTML=count
+count--
+  }
+   c=setInterval( ()=>{
+     
+      
+
+      
+    
+      
+    
+      if(count==1){
+         clearInterval(c)
+      }
+        
+        
+      
+               
    },1000)
 }

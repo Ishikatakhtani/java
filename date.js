@@ -34,11 +34,31 @@
 // age calculator take an input user will enter birth year on click of butthon show their age 
 
 
-let age=()=>{
-let i1=document.querySelector("#i").value
-let m= new Date()
-let b=m.getFullYear()
- let f=b-i1
-h.innerHTML=f
-}
+// let age=()=>{
+// let i1=document.querySelector("#i").value
+// let m= new Date()
+// let b=m.getFullYear()
+//  let f=b-i1
+// h.innerHTML=f
+// }
+
+
+
+let chg
+let t=()=>{
+    chg=setInterval( ()=>{
+    let d=new Date();
+   let h=(d.getHours())
+   let m=(d.getMinutes())
+   let ss=(d.getSeconds())
+   let s=(d.getMilliseconds())
+   let show=document.querySelector("#hh")
+  
+   show.innerHTML=`${h} :${m}:${ss}:${s}`
+   
+    })
+
+
+
+    }
 
