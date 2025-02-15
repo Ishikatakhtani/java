@@ -1,5 +1,24 @@
 // let v=document.querySelector("#in").value
 // let show=document.querySelector("#h")
+
+// up=setInterval( ()=>{
+// let hh=document.querySelector("#hh")
+// let sm=document.querySelector("#sm")
+// let a=new Date();
+
+// let smm=`${a.getHours().toString()}:${a.getMinutes().toString()}`
+// hh.innerHTML=smm
+// hh.style.color="yellow"
+
+// let hhh=`${a.getDate().toString()}-${a.getMonth().toString()}-${a.getFullYear().toString()}`
+// sm.innerHTML=hhh
+// sm.style.color="yellow"
+
+// },1000)
+
+
+
+
 let set=()=>{
     
     let v=document.querySelector("#in").value
@@ -18,19 +37,15 @@ let set=()=>{
 
 setTimeout( ()=>{
   clearInterval(aud.pause())
-       
+       show.innerHTML="set alaram again"
    },6000)
 
-  
-     
-        },1000)
+  },1000)
         
     
 }
 
-// let g=()=>{
-//  }
-    
+
  
 
 // let s=()=>{

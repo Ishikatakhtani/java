@@ -1,0 +1,34 @@
+#clock{
+border: 1px solid black;
+    border-radius: 50%;
+    color: azure;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTWfzxHQF4iwwx6Ca3maW7g3P5DKK4b0d5Yw&s);
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: 40%;
+margin-top: 12%;
+}
+#b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    margin-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 25px;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQaghf7T90D77pzfwe1YbZMEevRqbXz2RpjQ&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#b:hover{
+    background-color: lightsalmon;
+    color:lightyellow;
+}
