@@ -3,6 +3,10 @@ let senddata=()=>{
 localStorage.setItem("age","20")
 localStorage.setItem("city","bhopal")
 localStorage.setItem("state","M.P")
+
+// jumping to new pae 
+location.href="math.html"
+return false
 }
 
 let show=document.querySelector("#show")
@@ -20,3 +24,5 @@ let remove=()=>{
  //this refresh the page
  location.reload()
 }
+
+
